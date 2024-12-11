@@ -13,6 +13,6 @@ A couple of notes to take advice of:
 - OLED screen is not used due to Wheeltec made code programming it using software SPI
 - PID controller works best with dt being sampling frequency over sampling time (dt = 2000), meaning I gain is divided by dt and D gain is multiplied by dt
 - motors worked faster when moving forward, this is why there is a 0.9 product in the output to the motors during forward movement
-- PWM is set to work at period of 100 (prescaler = 720
+- PWM is set to work at period of 100 (prescaler = 9, ARR = 100)
   
 End result was robot not balancing due to PID values but it is functional, hopefully this is able to help you with your robot :)
