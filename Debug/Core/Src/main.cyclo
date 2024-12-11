@@ -1,0 +1,15 @@
+../Core/Src/main.c:114:6:MPU6050_Init	2
+../Core/Src/main.c:141:6:MPU6050_ACCEL_READ	1
+../Core/Src/main.c:159:6:MPU6050_GYRO_READ	1
+../Core/Src/main.c:176:6:CalGyro	2
+../Core/Src/main.c:196:6:CalAccel	2
+../Core/Src/main.c:216:6:moveForward	1
+../Core/Src/main.c:222:6:moveBackward	1
+../Core/Src/main.c:229:6:HAL_TIM_PeriodElapsedCallback	8
+../Core/Src/main.c:330:5:main	1
+../Core/Src/main.c:392:6:SystemClock_Config	3
+../Core/Src/main.c:432:13:MX_I2C1_Init	2
+../Core/Src/main.c:466:13:MX_TIM1_Init	8
+../Core/Src/main.c:545:13:MX_TIM4_Init	4
+../Core/Src/main.c:590:13:MX_GPIO_Init	1
+../Core/Src/main.c:623:6:Error_Handler	1
